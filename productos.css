@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body div{
+    height: 1100px;
+}
+
+body h1{
+    display: flex;
+    height: 100px;
+    background-color: rgb(123, 122, 106);
+    justify-content: space-between;
+    align-items: center;   
+    text-align: center;
+    line-height: normal;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sobrenosotro{
+    display: flex;
+    height: 120px;
+    background-color: rgb(123, 122, 106);
+    justify-content: space-between;
+    align-items: center;   
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;   
+    text-align: center;
+    line-height: normal;
+}
+
+body section{
+    background-color: rgb(123, 122, 106);
+
+}
+
+
+ 
