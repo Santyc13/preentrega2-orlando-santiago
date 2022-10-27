@@ -1,0 +1,252 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.indexheader{
+    background-color: #908072;
+    height: 110px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+    
+
+    .bienvenidos{
+        text-align: center;
+        line-height:normal;
+        text-transform: uppercase;
+        font-size: 5rem;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        filter: drop-shadow(4px 2px 2px)
+        }
+        .logo{
+        height: 100px;
+       margin-left: 20px;
+       filter: drop-shadow(4px 5px 2px);
+        }
+        .fondo{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            
+           
+        }
+        .nav-link:hover{
+            background-color: #988877;
+            transform: scale(0.8);
+            box-shadow: 1px 1px 3px black;
+
+        }
+        .divbody{
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            display: grid;
+            
+           
+
+        }
+        .textbody{
+            position: absolute;
+            color: antiquewhite;
+            top: 20rem;
+            left: 25%;
+            text-transform: uppercase ;
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .fiw{
+            position: absolute;
+            color: rgb(250, 235, 215);
+            top: 23rem;
+            left: 50%;
+            width: 200px ;
+            height: 200px;
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+            
+            
+
+        }
+
+    @media (max-width: 800px) {
+        
+    .bienvenidos {
+            font-size: 2rem;
+        }
+    .textbody{
+        font-size: 2.8rem;
+        left: 0.5%
+
+    }
+    }  
+    
+    .footer1 {
+        background-color: #847566;
+        margin: 0%;
+        
+
+    }
+    
+    
+   /* productos*/
+
+   .carousel {
+     width: 75%;
+     background-color: #675442;
+     margin: auto;
+     
+   }
+    .textp{
+        color: aliceblue;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    
+    
+
+.productos{
+    
+    background-color: #675442;
+}
+
+.tituloheader{
+    background-color: #908072;
+    height: 110px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    }
+    
+    .productosh1{
+    font-size: 3rem;
+}
+
+.pfooter{
+    background-color: #988877;
+}
+
+
+/* eventos */
+
+.eventos1{
+    background-color: #908072;
+    height: 110px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 1.4rem;
+
+}
+
+.eventocolor{
+    display: grid;
+    background-color: #7b644f;
+}
+.eventostext{
+    padding: 10px;
+    
+        font-size: 1.5rem;
+        font-weight: bold;
+    
+}
+.eventoshijo :hover{
+   transform: scale(0.8);
+
+}
+.text-end{
+    border: 2px solid black;
+    font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+
+}
+   
+
+/* Sobre nosotros */
+
+.snheader{
+    background-color: #908072;
+    height: 60px;
+    justify-content:space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+
+
+}
+.snmain{
+    background-color: #7b644f;
+    text-transform: uppercase;
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+
+
+}
+.snfooter{
+    background-color: #7b644f;
+    padding: 2%;
+    text-transform: uppercase;
+}
+.bodysn {
+    margin: 2px;
+    background-color: #7b644f;
+}
+   
+
+
+
+@media (min-width: 800px) {
+    .snmain{
+        margin-left: 5px;
+
+    }
+    
+
+}
+.btn {
+    background-color: #847566;
+    padding: 3px;
+    color: black;
+}
+
+ /* contactos */
+.bodycontactos{
+    background-color: #908072;
+
+}
+.GRACIAS{
+   
+    text-align: center;
+        line-height:normal;
+        background-color: #847566;
+        text-transform: uppercase;
+        font-size: 5rem;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+
+}
+.DIVLOGO{
+    text-align: center;
+    line-height:normal;
+        filter: drop-shadow(6px 12px 4px);
+
+}
+
+    
+
